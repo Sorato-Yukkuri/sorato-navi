@@ -4,5 +4,5 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: './', // GitHub Pages対応
+  base: '/sorato-nav/', // GitHub Pagesリポジトリ名
 })
